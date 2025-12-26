@@ -1,0 +1,26 @@
+import Link from 'next/link';
+
+export default function Navbar() {
+  return (
+    <nav className="sticky top-0 z-50 w-full border-b border-white/10 bg-black/50 backdrop-blur-xl">
+      <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center gap-2">
+          <Link href="/" className="text-xl font-bold tracking-tighter text-white">
+            Chinmaya Pati
+          </Link>
+        </div>
+        <div className="hidden md:flex items-center gap-6">
+          <Link href="/about" className="text-sm font-medium text-zinc-400 transition-colors hover:text-white">
+            About
+          </Link>
+          <Link href="/projects" className="text-sm font-medium text-zinc-400 transition-colors hover:text-white">
+            Projects
+          </Link>
+          <Link href="/contact" className="text-sm font-medium text-zinc-400 transition-colors hover:text-white">
+            Contact
+          </Link>
+        </div>
+      </div>
+    </nav>
+  );
+}
