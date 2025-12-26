@@ -2,10 +2,10 @@ export default function Home() {
   return (
     <div className="relative flex min-h-[calc(100vh-8rem)] flex-col items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-zinc-800/50 via-black to-black -z-10" />
-
       <div className="container px-4 text-center md:px-6">
         <div className="space-y-6">
           <h1 className="text-4xl font-bold tracking-tighter text-white sm:text-5xl md:text-6xl lg:text-7xl">
+            {/* <span className="bg-clip-text">I Build Systems End-To-End</span> */}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Chinmaya Pati</span>
           </h1>
           <p className="mx-auto max-w-[700px] text-lg text-zinc-400 md:text-xl font-light leading-relaxed">

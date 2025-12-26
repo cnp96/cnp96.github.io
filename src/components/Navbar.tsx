@@ -16,6 +16,9 @@ export default function Navbar() {
           <Link href="/projects" className="text-sm font-medium text-zinc-400 transition-colors hover:text-white">
             Projects
           </Link>
+          <Link href="/skills" className="text-sm font-medium text-zinc-400 transition-colors hover:text-white">
+            Skills
+          </Link>
           <Link href="/contact" className="text-sm font-medium text-zinc-400 transition-colors hover:text-white">
             Contact
           </Link>
