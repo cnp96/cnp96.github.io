@@ -1,18 +1,12 @@
-'use client';
-
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import Link from "next/link";
 
 export default function Navbar() {
-  const pathname = usePathname();
-  const brand = pathname === '/' ? 'Portfolio' : 'Chinmaya Pati';
-
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-white/10 bg-black/50 backdrop-blur-xl">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex items-center gap-2">
           <Link href="/" className="text-xl font-bold tracking-tighter text-white">
-            {brand}
+            Chinmaya Pati
           </Link>
         </div>
         <div className="hidden md:flex items-center gap-6">

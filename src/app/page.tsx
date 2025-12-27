@@ -1,3 +1,5 @@
+import { GithubLogoIcon, LinkedinLogoIcon, XLogoIcon } from '@phosphor-icons/react/ssr';
+
 export default function Home() {
   return (
     <div className="relative flex min-h-[calc(100vh-8rem)] flex-col items-center justify-center overflow-hidden">
@@ -6,7 +8,10 @@ export default function Home() {
         <div className="space-y-6">
           <h1 className="text-4xl font-bold tracking-tighter text-white sm:text-5xl md:text-6xl lg:text-7xl">
             {/* <span className="bg-clip-text">I Build Systems End-To-End</span> */}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Chinmaya Pati</span>
+            <span className="text-white">Building the </span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">future,</span><br />
+            <span className="text-white">one line at a time.</span>
+
           </h1>
           <p className="mx-auto max-w-[700px] text-lg text-zinc-400 md:text-xl font-light leading-relaxed">
             Full-stack engineer with 7+ years of experience.<br />Building scalable products, automation systems, and AI-powered features.
@@ -16,15 +21,24 @@ export default function Home() {
           </p> */}
 
           <div className="flex justify-center gap-6 pt-2">
-            <a href="https://github.com/cnp96" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors">
-              GitHub
-            </a>
-            <a href="https://linkedin.com/in/chinmayapati" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors">
-              LinkedIn
-            </a>
-            <a href="https://twitter.com/cnp96" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors">
-              Twitter
-            </a>
+            <div className="flex align-middle gap-1">
+              <GithubLogoIcon size={24} />
+              <a href="https://github.com/cnp96" target="_blank" rel="noopener noreferrer" className="font-bold text-zinc-200 hover:text-white transition-colors">
+                GitHub
+              </a>
+            </div>
+            <div className="flex align-middle gap-1">
+              <LinkedinLogoIcon size={24} />
+              <a href="https://linkedin.com/in/chinmayapati" target="_blank" rel="noopener noreferrer" className="font-bold text-zinc-200 hover:text-white transition-colors">
+                LinkedIn
+              </a>
+            </div>
+            <div className="flex align-middle gap-1">
+              <XLogoIcon size={24} />
+              <a href="https://twitter.com/chiku__p" target="_blank" rel="noopener noreferrer" className="font-bold text-zinc-200 hover:text-white transition-colors">
+                Twitter
+              </a>
+            </div>
           </div>
         </div>
 
