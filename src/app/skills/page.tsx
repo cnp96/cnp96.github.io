@@ -9,12 +9,12 @@ const skillCategories = [
   },
   {
     title: 'Databases',
-    skills: ['MongoDB', 'Postgresql', 'Redis', 'Bigquery'],
+    skills: ['MongoDB', 'PostgreSQL', 'Redis', 'BigQuery'],
     gradient: 'from-emerald-500 to-green-500',
   },
   {
     title: 'Frontend',
-    skills: ['React', 'Redux', 'NextJS', 'React Queries', 'React Native'],
+    skills: ['React', 'Redux', 'NextJS', 'TanStack Queries', 'React Native'],
     gradient: 'from-purple-500 to-pink-500',
   },
   {
