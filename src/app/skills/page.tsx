@@ -24,7 +24,7 @@ const skillCategories = [
   },
   {
     title: 'AI',
-    skills: ['Langchain', 'LLM Integrations', 'Prompt Engineering'],
+    skills: ['N8N', 'Langchain', 'LLM Integrations', 'Prompt Engineering'],
     gradient: 'from-indigo-500 to-violet-500',
   },
   {

@@ -10,6 +10,19 @@ type Project = {
 
 const projects: Project[] = [
   {
+    name: "Trading App",
+    period: "2022",
+    organization: "Freelancing",
+    type: "A custom trading app for stock broker",
+    description: "Trading app for a stock broker to fetch real-time rates and calculate the best possible rate for the user.",
+    contributions: [
+      "Integrated zerodha kite APIs to fetch real-time ticks. Then process them with custom logic to calculate the best possible rate for the user.",
+      "Optimized the previous rates service by implementing socket.io for streaming rates with a pubsub queue using Redis.",
+      "Built a lot of complex flows for dynamic margin calculations, order placement, and order management.",
+    ],
+    tech: ["NodeJS", "Flutter", "MongoDB", "Redis", "EC2"]
+  },
+  {
     name: "Upraised Preppa",
     period: "2022-2023",
     organization: "Upraised (acq by kello.ai)",
