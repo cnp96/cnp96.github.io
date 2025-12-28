@@ -4,32 +4,32 @@ import React from 'react';
 const skillCategories = [
   {
     title: 'Backend',
-    skills: ['NodeJS', 'Python', 'Golang', 'BullMQ', 'Kafka'],
+    skills: ['NodeJS', 'Python', 'Golang', 'BullMQ', 'AWS SWS', 'Kafka', 'REST APIs', 'gRPC', 'WebSockets'],
     gradient: 'from-blue-500 to-cyan-500',
   },
   {
     title: 'Databases',
-    skills: ['MongoDB', 'PostgreSQL', 'Redis', 'BigQuery'],
+    skills: ['MongoDB', 'PostgreSQL', 'Redis', 'BigQuery', 'PGVector', 'Chroma'],
     gradient: 'from-emerald-500 to-green-500',
   },
   {
     title: 'Frontend',
-    skills: ['React', 'Redux', 'NextJS', 'TanStack Queries', 'React Native'],
+    skills: ['NextJS', 'React', 'Redux', 'TanStack Queries', 'React Native (Mobile Apps)', 'TailwindCSS', 'Mantine', 'Styled Components'],
     gradient: 'from-purple-500 to-pink-500',
   },
   {
     title: 'DevOps',
-    skills: ['Git', 'Github Actions', 'Docker Swarm', 'Traefik', 'AWS', 'Prometheus', 'Grafana', 'Sidecar Patterns'],
+    skills: ['Git', 'Github Actions', 'Docker Swarm', 'Nginx', 'Traefik', 'AWS', 'Prometheus', 'Grafana'],
     gradient: 'from-orange-500 to-red-500',
   },
   {
     title: 'AI',
-    skills: ['N8N', 'Langchain', 'LLM Integrations', 'Prompt Engineering'],
+    skills: ['N8N', 'LangChain', 'LangGraph', 'LLM Integrations', 'Prompt Engineering'],
     gradient: 'from-indigo-500 to-violet-500',
   },
   {
     title: 'System Design',
-    skills: ['HLD/LLD', 'Microservices Pattern', 'Event-Driven Architecture', 'PubSub Model'],
+    skills: ['CAP Theorem', 'HLD/LLD', 'Monorepo', 'Microservices', 'Event-Driven Architecture', 'Caching', 'Publisher/Subscriber', 'Sidecar', 'Load Balancing'],
     gradient: 'from-yellow-500 to-amber-500',
   },
 ];
