@@ -27,9 +27,9 @@ export default function ContactPage() {
         message: formData.message,
       };
 
-      const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
-      const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-      const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+      const publicKey = 'QkxgiA43dgYnohjhp';
+      const serviceId = 'personal';
+      const templateId = 'template_contact_form';
 
       if (!serviceId || !templateId || !publicKey) {
         throw new Error('EmailJS configuration not found');
