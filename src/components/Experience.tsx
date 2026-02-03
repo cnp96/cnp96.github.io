@@ -11,7 +11,7 @@ const experiences = [
       "Built internal dashboards for meal planning, delivery routing, inventory tracking, and operational control.",
       "Implemented AI-powered menu planning with allergen and preference based personalization.",
       "Created workflow automations for daily, weekly, and monthly inventory usage reporting to improve unit economics and reduce waste.",
-      "Bootstrapped the platform to $100k ARR in 4 months(currently at $395k ARR). Achieved 82% customer retention with superior unit economics, customer experience and support."
+      "Bootstrapped the platform from $0 to $390k+ ARR. Achieved 82% customer retention with superior unit economics, customer experience and support."
     ],
     technologies: "Node.js, TypeScript, React, React Native, PostgreSQL, Redis, AWS, Docker, BullMQ, n8n, LLM APIs",
     links: [
