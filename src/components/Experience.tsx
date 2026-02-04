@@ -1,19 +1,20 @@
 const experiences = [
   {
     company: "Growfit",
-    role: "Co-Founder and Full-Stack Engineer",
+    role: "Co-Founder & Full-Stack Engineer",
     period: "June 2024 – Present",
-    sectors: ["HealthTech", "FoodTech", "AI"],
+    sectors: ["D2C", "FoodTech", "AI", "SaaS"],
     points: [
-      "Built and scaled a multi-brand food subscription and delivery platform serving B2C and B2B customers.",
-      "Sole engineer owning the entire system end to end including product architecture, frontend, backend, mobile apps, infrastructure, and automation.",
-      "Developed customer-facing mobile app for subscriptions, meal tracking, menu customization, and ad-hoc orders.",
-      "Built internal dashboards for meal planning, delivery routing, inventory tracking, and operational control.",
-      "Implemented AI-powered menu planning with allergen and preference based personalization.",
-      "Created workflow automations for daily, weekly, and monthly inventory usage reporting to improve unit economics and reduce waste.",
-      "Bootstrapped the platform from $0 to $390k+ ARR. Achieved 82% customer retention with superior unit economics, customer experience and support."
+      "Architected and built a multi-brand D2C food delivery and subscription system from the ground up, scaling to $390k ARR with 82% retention.",
+      "As the sole engineer, built an entire multi-brand food delivery + subscription system (D2C + B2B).",
+      "Developed customer app: subscriptions, meal tracking, food customization, ad-hoc orders.",
+      "Architected delivery planner, routing engine, skips and pauses, meal-plan management, invoicing & recurring payments (using Razorpay and Phonepe).",
+      "Built AI-powered menu planning and preference engines using embeddings, vector search, and rule-based scoring services.",
+      "Implemented background jobs, queues, and event-driven workflows for order processing, inventory updates, and reporting.",
+      "Built automated pipelines for daily, weekly, and monthly inventory and unit economics reporting with notifications.",
+      "Managed complete DevOps: Docker Swarm on AWS infra, CI/CD, monitoring, scaling."
     ],
-    technologies: "Node.js, TypeScript, React, React Native, PostgreSQL, Redis, AWS, Docker, BullMQ, n8n, LLM APIs",
+    technologies: "Node.js, TypeScript, React, React Native, PostgreSQL, Redis, AWS (ECS/Lambda/SQS), Docker Swarm, BullMQ, n8n, LLM APIs",
     links: [
       { label: "growfit.pro", url: "https://growfit.pro?utm_source=portfolio" },
       { label: "dailytiffin.co", url: "https://dailytiffin.co?utm_source=portfolio" },
@@ -30,7 +31,7 @@ const experiences = [
       "Interview Prep: Developed an interview preparation platform with scheduling workflows, video conferencing, and interview recordings.",
       "Virtual Interview: Built an AI powered evaluation engine to conduct virtual interviews at scale, categorize candidates, and provide insights.",
       "Online Testing: Built a secure online testing platform with system checks, fraud detection, and proctoring logic. Optimized for very poor network conditions.",
-      "Learner Dashboards: Created learner dashboards for coaching sessions, mentoring, content access, and payments.",
+      "Learner Dashboards: Contributed to learner dashboards for coaching sessions, mentoring, content access, and payments.",
       "Recruitment CRM: Designed and built a recruitment CRM to manage placement lifecycles, job pipelines, and automated updates.",
       "Worked closely with product and design teams to translate early stage ideas into production systems used by thousands of learners.",
       "Improved system scalability, reliability, and delivery velocity across multiple product lines."
@@ -42,16 +43,17 @@ const experiences = [
     ]
   },
   {
-    company: "LoginRadius",
+    company: "LoginRadius / Social9",
     role: "Software Engineer",
     period: "September 2018 – February 2021",
     sectors: ["CIAM", "SaaS"],
     points: [
-      "Rebuilt the admin console from Angular to React, resulting in a 300% performance improvement and better user experience.",
-      "Migrated legacy monolithic services to a microservices architecture to improve maintainability and release speed.",
-      "Built an AWS based notification system using Lambda and SQS for high volume event processing.",
-      "Optimized Node.js services processing millions of data export records, improving throughput and stability.",
-      "Built analytics dashboards and engagement tools used by thousands of customer applications."
+      "Rebuilt admin console (Angular → React), delivering 3× performance improvement.",
+      "Migrated large monolithic services to microservices → faster deployments & maintainability.",
+      "Helped build a distributed data service layer (DSL) for event sourcing, access control, and audit.",
+      "Built an AWS (Lambda + SQS) notification system for high-volume event processing.",
+      "Optimised Node.js data export service processing millions of records with significant throughput gains.",
+      "Delivered analytics dashboards & engagement systems used across thousands of customer sites."
     ],
     technologies: "Node.js, Golang, React, MongoDB, Redis, AWS S3/Lambda/SQS/SES/EC2, Kafka, Datadog, Microservices, K8s, Docker",
     links: [

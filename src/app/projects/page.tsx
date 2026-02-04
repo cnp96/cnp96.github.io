@@ -10,15 +10,28 @@ type Project = {
 
 const projects: Project[] = [
   {
-    name: "Trading Rate Server",
-    period: "2022",
-    organization: "Freelancing",
-    type: "A custom rate-server for a stock broker",
-    description: "A custom rate-server for a stock broker to fetch real-time rates from multiple providers.",
+    name: "CollabSign",
+    period: "Dec 2025 – Present",
+    organization: "CollabSign (Closed Beta)",
+    type: "AI SaaS",
+    description: "AI-powered creator-brand collaboration SaaS.",
     contributions: [
-      "Integrated multiple tick providers for real-time rates and high service availability with proper handling of rate caching, and scrip expiries.",
-      "Processed rates via Redis pubsub and stream using websockets to connected clients.",
-      "Built a lot of complex flows for dynamic margin calculations, order placement, and order management.",
+      "Built an AI-powered contract generation system with Aadhaar e-sign integration for legal validity.",
+      "Developed automated workflows for importing and managing brand collaborations from unstructured email and screenshot data.",
+      "Built CRM and workflows for managing brand collaborations, invoices & payment reminders."
+    ],
+    tech: ["AI", "React", "Node.js", "Aadhaar e-Sign"]
+  },
+  {
+    name: "Trading Rate Server",
+    period: "Oct 2022 – Nov 2022",
+    organization: "Freelance",
+    type: "FinTech Infrastructure",
+    description: "A custom rate server for a broker to trade equity, commodity, and derivatives.",
+    contributions: [
+      "Integrated multiple tick providers for real-time rates and high service availability with proper handling of rate caching and scrip expires.",
+      "Implemented real-time tick processing via Redis Pub/Sub and WebSocket streaming to ensure high availability and data consistency.",
+      "Built tooling to manage scrips, apply custom price logic on live rates dynamically."
     ],
     tech: ["NodeJS", "Flutter", "MongoDB", "Redis", "EC2", "API Integrations"]
   },
