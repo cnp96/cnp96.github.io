@@ -14,11 +14,10 @@ const projects: Project[] = [
     period: "Dec 2025 – Present",
     organization: "CollabSign (Closed Beta)",
     type: "AI SaaS",
-    description: "AI-powered creator-brand collaboration SaaS.",
+    description: "AI-powered creator–brand collaboration SaaS.",
     contributions: [
-      "Built an AI-powered contract generation system with Aadhaar e-sign integration for legal validity.",
-      "Developed automated workflows for importing and managing brand collaborations from unstructured email and screenshot data.",
-      "Built CRM and workflows for managing brand collaborations, invoices & payment reminders."
+      "Developed an agentic contract generation system with Aadhaar e-sign flow, reducing significant time-to-contract finalisation.",
+      "Engineered the core CRM and automated workflows for managing brand collaborations, invoices, and payment reminders, reducing missed overdue payments."
     ],
     tech: ["AI", "React", "Node.js", "Aadhaar e-Sign"]
   },
@@ -29,9 +28,9 @@ const projects: Project[] = [
     type: "FinTech Infrastructure",
     description: "A custom rate server for a broker to trade equity, commodity, and derivatives.",
     contributions: [
-      "Integrated multiple tick providers for real-time rates and high service availability with proper handling of rate caching and scrip expires.",
-      "Implemented real-time tick processing via Redis Pub/Sub and WebSocket streaming to ensure high availability and data consistency.",
-      "Built tooling to manage scrips, apply custom price logic on live rates dynamically."
+      "Integrated and managed multiple tick providers for real-time rates, establishing failover and caching logic to maintain >99.9% uptime for a high-frequency trading broker.",
+      "Implemented real-time tick processing using Redis Pub/Sub and WebSocket streaming, achieving p99 market data delivery latency under 150ms.",
+      "Built dynamic tooling to manage scrips and apply custom pricing logic on live rates, enabling rapid adjustment to market conditions."
     ],
     tech: ["NodeJS", "Flutter", "MongoDB", "Redis", "EC2", "API Integrations"]
   },
@@ -148,12 +147,12 @@ export default function ProjectsPage() {
             Selected Work
           </h1>
           <p className="max-w-[700px] text-zinc-400 text-lg font-light">
-            A deep dive into the systems and products I've engineered.
+            A deep dive into the systems and products I&apos;ve engineered.
           </p>
         </div>
 
         <div className="space-y-12">
-          {projects.map((project, index) => (
+          {projects.map((project) => (
             <div
               key={project.name}
               className="group relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/40 p-6 md:p-8 backdrop-blur-sm transition-all hover:border-white/20 hover:bg-zinc-900/60"

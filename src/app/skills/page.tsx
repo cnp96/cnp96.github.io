@@ -4,34 +4,39 @@ import React from 'react';
 const skillCategories = [
   {
     title: 'Backend',
-    skills: ['NodeJS', 'Python', 'Golang', 'BullMQ', 'AWS SWS', 'Kafka', 'REST APIs', 'gRPC', 'WebSockets'],
+    skills: ['NodeJS', 'Python (Django)', 'Go'],
     gradient: 'from-blue-500 to-cyan-500',
   },
   {
-    title: 'Databases',
-    skills: ['MongoDB', 'PostgreSQL', 'Redis', 'BigQuery', 'PGVector', 'Chroma'],
-    gradient: 'from-emerald-500 to-green-500',
-  },
-  {
     title: 'Frontend',
-    skills: ['NextJS', 'React', 'Redux', 'TanStack Queries', 'React Native (Mobile Apps)', 'TailwindCSS', 'Mantine', 'Styled Components'],
+    skills: ['React', 'React Native', 'Next.js', 'Tailwind', 'Shadcn', 'Figma', 'Zustand', 'Redux', 'Tanstack Queries'],
     gradient: 'from-purple-500 to-pink-500',
   },
   {
-    title: 'DevOps',
-    skills: ['Git', 'Github Actions', 'Docker Swarm', 'Nginx', 'Traefik', 'AWS', 'Prometheus', 'Grafana'],
+    title: 'Databases',
+    skills: ['MongoDB', 'PostgreSQL', 'pgvector', 'Redis', 'BigQuery'],
+    gradient: 'from-emerald-500 to-green-500',
+  },
+  {
+    title: 'Cloud & DevOps',
+    skills: ['AWS (EC2, Lambda, SQS)', 'GCP', 'Docker Swarm', 'Kubernetes', 'Traefik/Nginx', 'Github Actions'],
     gradient: 'from-orange-500 to-red-500',
   },
   {
-    title: 'AI',
-    skills: ['N8N', 'LangChain', 'LangGraph', 'LLM Integrations', 'Prompt Engineering'],
+    title: 'AI / ML',
+    skills: ['LangChain', 'RAG', 'Prompt Engineering', 'Agentic Orchestrations'],
     gradient: 'from-indigo-500 to-violet-500',
   },
   {
-    title: 'System Design',
-    skills: ['CAP Theorem', 'HLD/LLD', 'Monorepo', 'Microservices', 'Event-Driven Architecture', 'Caching', 'Publisher/Subscriber', 'Sidecar', 'Load Balancing'],
+    title: 'Queues & Observability',
+    skills: ['BullMQ', 'Celery', 'Kafka', 'n8n', 'Datadog', 'Newrelic', 'OTEL (Prometheus, Grafana)', 'RudderStack', 'Mixpanel'],
     gradient: 'from-yellow-500 to-amber-500',
   },
+  {
+    title: 'Architectures',
+    skills: ['Distributed Systems', 'Microservices', 'Event Sourcing', 'Domain-Driven Design', 'Caching', 'Pub/Sub', 'Sidecar', 'Load Balancing'],
+    gradient: 'from-red-500 to-pink-500',
+  }
 ];
 
 export default function SkillsPage() {

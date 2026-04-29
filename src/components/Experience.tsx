@@ -1,61 +1,54 @@
 const experiences = [
   {
     company: "Growfit",
-    role: "Co-Founder & Full-Stack Engineer",
+    role: "Tech Co-Founder",
     period: "June 2024 – Present",
     sectors: ["D2C", "FoodTech", "AI", "SaaS"],
     points: [
-      "Architected and built a multi-brand D2C food delivery and subscription system from the ground up, scaling to $390k ARR with 82% retention.",
-      "As the sole engineer, built an entire multi-brand food delivery + subscription system (D2C + B2B).",
-      "Developed customer app: subscriptions, meal tracking, food customization, ad-hoc orders.",
-      "Architected delivery planner, routing engine, skips and pauses, meal-plan management, invoicing & recurring payments (using Razorpay and Phonepe).",
-      "Built AI-powered menu planning and preference engines using embeddings, vector search, and rule-based scoring services.",
-      "Implemented background jobs, queues, and event-driven workflows for order processing, inventory updates, and reporting.",
-      "Built automated pipelines for daily, weekly, and monthly inventory and unit economics reporting with notifications.",
-      "Managed complete DevOps: Docker Swarm on AWS infra, CI/CD, monitoring, scaling."
+      "Sole engineer leading all products, services, AI systems & infrastructure.",
+      "Scaled a multi-brand D2C food delivery and subscription system to $390k ARR with 82% customer retention by owning the architecture, backend, frontend, and infrastructure.",
+      "Engineered the core customer app features, including subscriptions, meal tracking, food customisation, and ad-hoc ordering for a user base of 500 daily active users.",
+      "Architected and implemented the delivery planner and routing engine, optimising logistics and supporting complex subscription flows (skips, pauses, recurring payments).",
+      "Developed a RAG-based WhatsApp support agent (LangChain) to automate user queries, resulting in a 95% reduction in manual support load.",
+      "Engineered an AI-assisted menu planner leveraging embeddings and vector search (pgvector) to handle food customisation at scale, leading to a 25% increase in meal personalisation adoption.",
+      "Implemented robust background jobs and event-driven workflows using BullMQ for critical systems (order processing, inventory updates), ensuring >99.9% uptime.",
+      "Automated daily, weekly, and monthly reporting pipelines for inventory and unit economics, saving operations 10+ hours per week."
     ],
-    technologies: "Node.js, TypeScript, React, React Native, PostgreSQL, Redis, AWS (ECS/Lambda/SQS), Docker Swarm, BullMQ, n8n, LLM APIs",
+    technologies: "Node.js, React, React Native, PostgreSQL, pgvector, Redis, AWS, Docker Swarm, BullMQ, LangChain, LLM APIs",
     links: [
-      { label: "growfit.pro", url: "https://growfit.pro?utm_source=portfolio" },
-      { label: "dailytiffin.co", url: "https://dailytiffin.co?utm_source=portfolio" },
-      { label: "houseoffresh.in", url: "https://houseoffresh.in?utm_source=portfolio" }
+      { label: "growfit.pro", url: "https://growfit.pro" },
+      { label: "dailytiffin.co", url: "https://dailytiffin.co" }
     ]
   },
   {
     company: "Upraised (acquired by Kello)",
     role: "Senior Software Engineer",
-    period: "March 2021 – May 2024",
+    period: "Mar 2021 – May 2024",
     sectors: ["EdTech", "AI"],
     points: [
-      "Built multiple products from scratch as part of the founding engineering team.",
-      "Interview Prep: Developed an interview preparation platform with scheduling workflows, video conferencing, and interview recordings.",
-      "Virtual Interview: Built an AI powered evaluation engine to conduct virtual interviews at scale, categorize candidates, and provide insights.",
-      "Online Testing: Built a secure online testing platform with system checks, fraud detection, and proctoring logic. Optimized for very poor network conditions.",
-      "Learner Dashboards: Contributed to learner dashboards for coaching sessions, mentoring, content access, and payments.",
-      "Recruitment CRM: Designed and built a recruitment CRM to manage placement lifecycles, job pipelines, and automated updates.",
-      "Worked closely with product and design teams to translate early stage ideas into production systems used by thousands of learners.",
-      "Improved system scalability, reliability, and delivery velocity across multiple product lines."
+      "Designed and launched the core interview prep platform with scheduling flows and integrated Dyte/Zoom; incorporated AI evaluations to generate feedback on verbal and non-verbal cues.",
+      "Developed a secure online testing platform, incorporating real-time system checks and fraud detection, resulting in high exam integrity across 500k concurrent users.",
+      "Contributed to the full-stack development of the learners' dashboard, streamlining access to coaching, content, and payment portals, improving feature engagement by 46%.",
+      "Designed a recruitment CRM that automated the placement lifecycle, portfolio creation, and opportunity pipelines, improving time-to-placement by 70%."
     ],
-    technologies: "Python Django + Celery, Golang, React + Redux + Queries, NextJS, LLM Agents(Guidance + OpenAI/Azure Speech), PostgreSQL, Redis, AWS, WebRTC, K8s, New Relic",
+    technologies: "Python, Django, Celery, Golang, React, Redux, Next.js, LLM Agents, PostgreSQL, Redis, AWS, WebRTC, Kubernetes",
     links: [
       { label: "kello.ai", url: "https://kello.ai/" },
-      { label: "upraised.co", url: "https://www.linkedin.com/school/upraised/" }
+      { label: "upraised.co", url: "https://upraised.co/" }
     ]
   },
   {
     company: "LoginRadius / Social9",
     role: "Software Engineer",
-    period: "September 2018 – February 2021",
+    period: "Sep 2018 – Feb 2021",
     sectors: ["CIAM", "SaaS"],
     points: [
-      "Rebuilt admin console (Angular → React), delivering 3× performance improvement.",
-      "Migrated large monolithic services to microservices → faster deployments & maintainability.",
-      "Helped build a distributed data service layer (DSL) for event sourcing, access control, and audit.",
-      "Built an AWS (Lambda + SQS) notification system for high-volume event processing.",
-      "Optimised Node.js data export service processing millions of records with significant throughput gains.",
-      "Delivered analytics dashboards & engagement systems used across thousands of customer sites."
+      "Engineered a multi-cloud distributed Data Service Layer (DSL) for event sourcing and access control, designed to support scaling to over a billion user identities.",
+      "Migrated the legacy admin console from Angular to React, achieving a 3x performance improvement for user operations and a 2x faster Software Development Life Cycle.",
+      "Decoupled large monolithic services into a microservices architecture, reducing the average deployment time by 80% and improving system maintainability.",
+      "Optimised a Node.js data export service, increasing throughput to process millions of records with a 40% reduction in execution time using a cluster running architecture."
     ],
-    technologies: "Node.js, Golang, React, MongoDB, Redis, AWS S3/Lambda/SQS/SES/EC2, Kafka, Datadog, Microservices, K8s, Docker",
+    technologies: "Node.js, Golang, React, MongoDB, Redis, AWS, Kafka, Microservices, Kubernetes, Docker",
     links: [
       { label: "loginradius.com", url: "https://loginradius.com" },
       { label: "social9.com", url: "https://social9.com" }
